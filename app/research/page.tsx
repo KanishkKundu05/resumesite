@@ -70,8 +70,6 @@ export default function ResearchPage() {
       <section>
         <div className="flex-1">
           <div className="space-y-3 text-[1.2rem] leading-relaxed text-zinc-600 dark:text-zinc-400">
-            <p>my most interesting research.</p>
-
             <div className="space-y-6">
               {RESEARCH_PROJECTS.map((project) => (
                 <div key={project.title} className="space-y-1">
