@@ -123,7 +123,7 @@ export default function Personal() {
             </Link>{' '}
             at the intersection of applied math & ai.
           </p>
-          <p>currently enjoy building automations & ai agents</p>
+          <p>currently enjoy building automation systems & ai agents.</p>
           <p className="mt-4">
             reach out to me on{' '}
             <a
