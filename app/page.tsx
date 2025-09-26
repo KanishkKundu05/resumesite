@@ -110,20 +110,20 @@ export default function Personal() {
         <div className="flex-1 space-y-4 text-[1.2rem] leading-relaxed text-zinc-600 dark:text-zinc-400">
           <p>I love tackling hard problems & currently study math @ nyu courant.</p>
           <p>
-            I am a 2x AIME qualifier and cut my teeth on{' '}
+            I am a 2x AIME qualifier and grind{' '}
             <Link href="/olympiads" className="underline">
               competitive olympiads
             </Link>
-            .
+            {' '}for fun.
           </p>
           <p>
             at college, I did{' '}
             <Link href="/research" className="underline">
               research
             </Link>{' '}
-            at the intersection of applied math & tech.
+            at the intersection of applied math & ai.
           </p>
-          <p>currently building automations for real users.</p>
+          <p>currently enjoy building automations & ai agents</p>
           <p className="mt-4">
             reach out to me on{' '}
             <a
