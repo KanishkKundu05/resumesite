@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description:'kanishk',
   openGraph: {
     title: 'kanishk',
-    description:'hey, im kanishk.',
+    description:'hey, im kanishk. i love building & am a math major @ nyu courant.',
     url: 'https://kanishkkundu.com/',
     siteName: 'Kanishk Kundu',
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Kanishk Kundu',
     description:
-      'Personal site of Kanishk Kundu — showcasing work, projects, and experiments in automation.',
+      'i am kanishk. i am a a 20 yo builder & math major @ nyu courant.',
   },
 }
 
