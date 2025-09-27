@@ -28,8 +28,7 @@ const RESEARCH_PROJECTS: ResearchProject[] = [
     description: (
       <>
         tackled the curse of dimensionality. found customer segments for sun
-        country airlines & ran targeted campaigns (17% reactivation & recovered
-        ~$220k in revenue).
+        country airlines & ran targeted campaigns.
       </>
     ),
     link: '/clustering-algorithms',
