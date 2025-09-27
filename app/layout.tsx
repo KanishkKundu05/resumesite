@@ -19,12 +19,10 @@ export const metadata: Metadata = {
     default: 'kanishk',
     template: '%s | kanishk',
   },
-  description:
-    'kanishk',
+  description:'kanishk',
   openGraph: {
     title: 'kanishk',
-    description:
-      'hey, im kanishk.'
+    description:'hey, im kanishk.',
     url: 'https://kanishkkundu.com/',
     siteName: 'Kanishk Kundu',
   },
