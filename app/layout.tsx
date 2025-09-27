@@ -11,16 +11,30 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nim-fawn.vercel.app/'),
+  metadataBase: new URL('https://kanishkkundu.com/'),
   alternates: {
-    canonical: '/'
+    canonical: '/',
   },
   title: {
-    default: 'Nim - Personal website template',
-    template: '%s | Nim'
+    default: 'Kanishk Kundu',
+    template: '%s | Kanishk Kundu',
   },
-  description:  'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
-};
+  description:
+    'Personal site of Kanishk Kundu — showcasing work, projects, and experiments in automation.',
+  openGraph: {
+    title: 'Kanishk Kundu',
+    description:
+      'Personal site of Kanishk Kundu — showcasing work, projects, and experiments in automation.',
+    url: 'https://kanishkkundu.com/',
+    siteName: 'Kanishk Kundu',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Kanishk Kundu',
+    description:
+      'Personal site of Kanishk Kundu — showcasing work, projects, and experiments in automation.',
+  },
+}
 
 const geist = Geist({
   variable: '--font-geist',
