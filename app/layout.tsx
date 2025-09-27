@@ -16,15 +16,15 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   title: {
-    default: 'Kanishk Kundu',
-    template: '%s | Kanishk Kundu',
+    default: 'kanishk',
+    template: '%s | kanishk',
   },
   description:
-    'Personal site of Kanishk Kundu — showcasing work, projects, and experiments in automation.',
+    'kanishk',
   openGraph: {
-    title: 'Kanishk Kundu',
+    title: 'kanishk',
     description:
-      'Personal site of Kanishk Kundu — showcasing work, projects, and experiments in automation.',
+      'hey, im kanishk.'
     url: 'https://kanishkkundu.com/',
     siteName: 'Kanishk Kundu',
   },
@@ -64,9 +64,11 @@ export default function RootLayout({
           forcedTheme="light"
         >
           <div className="flex min-h-screen w-full flex-col font-[family-name:var(--font-inter-tight)]">
-            <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-[11.1375rem]">
+          <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-[11.1375rem]">
+            <div className="transform -translate-y-[20vh] space-y-6 md:space-y-10">
               <Header />
               {children}
+            </div>
             </div>
           </div>
         </ThemeProvider>
