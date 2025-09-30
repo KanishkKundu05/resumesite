@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
-import { Header } from './header'
+// header inlined from ./header
  
 
 export const viewport: Viewport = {
@@ -57,7 +57,9 @@ export default function RootLayout({
         <div className="flex min-h-screen w-full flex-col font-[family-name:var(--font-inter-tight)]">
           <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-[11.1375rem]">
             <div className="transform -translate-y-[20vh] space-y-6 md:space-y-10">
-              <Header />
+              <header className="mt-[5.535rem] mb-8">
+                <strong className="block text-2xl font-semibold">hi, im kanishk</strong>
+              </header>
               {children}
             </div>
           </div>
