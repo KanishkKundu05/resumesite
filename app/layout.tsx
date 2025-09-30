@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
 import { Header } from './header'
-import { ThemeProvider } from 'next-themes'
+ 
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -54,22 +54,14 @@ export default function RootLayout({
       <body
         className={`${geist.variable} ${geistMono.variable} bg-white tracking-tight antialiased`}
       >
-        <ThemeProvider
-          enableSystem={false}
-          attribute="class"
-          storageKey="theme"
-          defaultTheme="light"
-          forcedTheme="light"
-        >
-          <div className="flex min-h-screen w-full flex-col font-[family-name:var(--font-inter-tight)]">
+        <div className="flex min-h-screen w-full flex-col font-[family-name:var(--font-inter-tight)]">
           <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-[11.1375rem]">
             <div className="transform -translate-y-[20vh] space-y-6 md:space-y-10">
               <Header />
               {children}
             </div>
-            </div>
           </div>
-        </ThemeProvider>
+        </div>
       </body>
     </html>
   )

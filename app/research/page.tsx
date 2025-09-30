@@ -68,14 +68,14 @@ export default function ResearchPage() {
     <main className="space-y-24">
       <section>
         <div className="flex-1">
-          <div className="space-y-3 text-[1.2rem] leading-relaxed text-zinc-600 dark:text-zinc-400">
+          <div className="space-y-3 text-[1.2rem] leading-relaxed text-zinc-600">
             <div className="space-y-6">
               {RESEARCH_PROJECTS.map((project) => (
                 <div key={project.title} className="space-y-1">
-                  <p className="text-black dark:text-zinc-200">
+                  <p className="text-black">
                     {project.title}
                     {project.collaborator ? (
-                      <span className="ml-2 align-baseline text-sm text-zinc-500 dark:text-zinc-400">
+                      <span className="ml-2 align-baseline text-sm text-zinc-500">
                         {project.collaborator.prefix
                           ? `${project.collaborator.prefix} `
                           : ''}

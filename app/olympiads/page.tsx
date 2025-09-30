@@ -24,7 +24,7 @@ export default function OlympiadsPage() {
     <main className="space-y-24">
       <section>
         <div className="flex-1">
-          <div className="space-y-3 text-[1.2rem] leading-relaxed text-zinc-600 dark:text-zinc-400">
+          <div className="space-y-3 text-[1.2rem] leading-relaxed text-zinc-600">
             <p>
               my love for problem solving started{' '}
               <span className="italic">here</span>.
@@ -32,11 +32,11 @@ export default function OlympiadsPage() {
 
             <div className="space-y-4">
               {ACHIEVEMENTS.map((achievement) => (
-                <div key={achievement.title} className="space-y-1">
-                  <p className="text-black dark:text-zinc-200">
+                <div key={achievement.title}>
+                  <p className="text-black">
                     {achievement.title}
                   </p>
-                  <p>{achievement.detail}</p>
+                  <p className="mt-[0.2rem] text-[1.02rem] text-zinc-500">{achievement.detail}</p>
                 </div>
               ))}
             </div>
