@@ -55,9 +55,9 @@ export default function RootLayout({
         className={`${geist.variable} ${geistMono.variable} bg-white tracking-tight antialiased`}
       >
         <div className="flex min-h-screen w-full flex-col font-[family-name:var(--font-inter-tight)]">
-          <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-[11.1375rem]">
-            <div className="transform -translate-y-[20vh] space-y-6 md:space-y-10">
-              <header className="mt-[5.535rem] mb-8">
+          <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pb-16 pt-36 md:pt-44">
+            <div className="space-y-6">
+              <header>
                 <strong className="block text-2xl font-semibold">hi, im kanishk</strong>
               </header>
               {children}
