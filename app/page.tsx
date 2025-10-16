@@ -21,7 +21,14 @@ export default function Personal() {
             </Link>{' '}
             at the intersection of applied math & ai.
           </p>
-          <p>currently enjoy building automation systems & ai agents.</p>
+          <p>currently enjoy building <a
+              href="https://atlasagents.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              automation systems
+            </a> & ai agents.</p>
           <p>
             reach out to me on{' '}
             <a
