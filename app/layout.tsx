@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     template: '%s | kanishk',
   },
   description:'kanishk',
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: 'kanishk',
     description:'hey, im kanishk. i love building & am a math major @ nyu courant.',

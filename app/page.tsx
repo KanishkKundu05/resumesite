@@ -32,7 +32,7 @@ export default function Personal() {
           <p>
             reach out to me on{' '}
             <a
-              href="https://x.com/mewsSOL"
+              href="https://x.com/kanishk_k23"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"
