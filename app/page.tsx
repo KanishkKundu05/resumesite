@@ -4,6 +4,9 @@ import Link from 'next/link'
 export default function Personal() {
   return (
     <main className="space-y-24">
+      <header className="mb-6">
+        <strong className="block text-2xl font-semibold">hi, im kanishk</strong>
+      </header>
       <section>
         <div className="flex-1 space-y-6 text-[1.2rem] leading-relaxed text-zinc-600">
           <p>i love tackling hard problems & currently study math @ nyu courant.</p>
@@ -21,14 +24,7 @@ export default function Personal() {
             </Link>{' '}
             at the intersection of applied math & ai.
           </p>
-          <p>currently enjoy building <a
-              href="https://atlasagents.ai"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              automation systems
-            </a> & ai agents.</p>
+          <p>currently enjoy{' '}<Link href = "/projects" className="underline">building</Link> AI agents & enterprise automations</p>
           <p>
             reach out to me on{' '}
             <a

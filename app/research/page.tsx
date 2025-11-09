@@ -65,7 +65,15 @@ const RESEARCH_PROJECTS: ResearchProject[] = [
 
 export default function ResearchPage() {
   return (
-    <main className="space-y-24">
+    <main className="space-y-6">
+      <div className="relative">
+        <Link href="/" className="absolute -top-8 left-0 text-zinc-600 hover:text-black">
+          ←
+        </Link>
+        <header className="mb-6">
+          <strong className="block text-2xl font-semibold">research</strong>
+        </header>
+      </div>
       <section>
         <div className="flex-1">
           <div className="space-y-3 text-[1.2rem] leading-relaxed text-zinc-600">

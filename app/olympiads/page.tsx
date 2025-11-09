@@ -1,5 +1,7 @@
 'use client'
 
+import Link from 'next/link'
+
 const ACHIEVEMENTS = [
   {
     title: 'honour roll, cayley (uWaterloo) ',
@@ -21,10 +23,18 @@ const ACHIEVEMENTS = [
 
 export default function OlympiadsPage() {
   return (
-    <main className="space-y-24">
+    <main className="space-y-6">
+      <div className="relative">
+        <Link href="/" className="absolute -top-8 left-0 text-zinc-600 hover:text-black">
+          ←
+        </Link>
+        <header className="mb-6">
+          <strong className="block text-2xl font-semibold">olympiads</strong>
+        </header>
+      </div>
       <section>
         <div className="flex-1">
-          <div className="space-y-3 text-[1.2rem] leading-relaxed text-zinc-600">
+          <div className="space-y-6 text-[1.2rem] leading-relaxed text-zinc-600">
             <p>
               my love for problem solving started{' '}
               <span className="italic">here</span>.
