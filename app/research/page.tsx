@@ -42,7 +42,7 @@ const RESEARCH_PROJECTS: ResearchProject[] = [
     },
     description: (
       <>
-        helping grad team test software supply-chain controls of financial systems that
+        tested software integrity of systems that
         process $7T+ daily post-trade.
       </>
     ),
@@ -92,7 +92,7 @@ export default function ResearchPage() {
                             href={project.collaborator.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="hover:text-black"
+                            className="underline hover:text-black"
                           >
                             {project.collaborator.label}
                           </a>
