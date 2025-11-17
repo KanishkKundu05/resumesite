@@ -32,7 +32,7 @@ export default function Personal() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 underline"
-            >x
+            >
               X
             </a>{' '}
             or email me at kk5241@nyu.edu.
