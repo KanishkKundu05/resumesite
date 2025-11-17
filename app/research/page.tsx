@@ -67,7 +67,7 @@ export default function ResearchPage() {
   return (
     <main className="space-y-6">
       <div className="relative">
-        <Link href="/" className="absolute -top-8 left-0 text-zinc-600 hover:text-black">
+        <Link href="/" className="absolute -top-8 left-0 text-blue-600 underline hover:text-black">
           ←
         </Link>
         <header className="mb-6">
@@ -92,7 +92,7 @@ export default function ResearchPage() {
                             href={project.collaborator.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="underline"
+                            className="text-blue-600 underline"
                           >
                             {project.collaborator.label}
                           </a>

@@ -12,27 +12,27 @@ export default function Personal() {
           <p>i love tackling hard problems & currently study math @ nyu courant.</p>
           <p>
             i am a 2x AIME qualifier and grind{' '}
-            <Link href="/olympiads" className="underline">
+            <Link href="/olympiads" className="text-blue-600 underline">
               olympiads
             </Link>
             {' '}for fun.
           </p>
           <p>
             at college, i did{' '}
-            <Link href="/research" className="underline">
+            <Link href="/research" className="text-blue-600 underline">
               research
             </Link>{' '}
             at the intersection of applied math & ai.
           </p>
-          <p>currently enjoy{' '}<Link href = "/projects" className="underline">building</Link> AI agents & enterprise automations</p>
+          <p>currently enjoy{' '}<Link href = "/projects" className="text-blue-600 underline">building</Link> AI agents & enterprise automations</p>
           <p>
             reach out to me on{' '}
             <a
               href="https://x.com/kanishk_k23"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline"
-            >
+              className="text-blue-600 underline"
+            >x
               X
             </a>{' '}
             or email me at kk5241@nyu.edu.
@@ -42,7 +42,7 @@ export default function Personal() {
               href="https://www.linkedin.com/in/kanishkkundu/"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline"
+              className="text-blue-600 underline"
             >
               Linkedin
             </a>
@@ -51,7 +51,7 @@ export default function Personal() {
               href="https://github.com/kanishkkundu05"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline"
+              className="text-blue-600 underline"
             >
               Github
             </a>

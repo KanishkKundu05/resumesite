@@ -42,7 +42,7 @@ export default function ResearchPage() {
   return (
     <main className="space-y-6">
       <div className="relative">
-        <Link href="/" className="absolute -top-8 left-0 text-zinc-600 hover:text-black">
+        <Link href="/" className="absolute -top-8 left-0 text-blue-600 underline hover:text-black">
           ←
         </Link>
         <header className="mb-6">
@@ -55,7 +55,7 @@ export default function ResearchPage() {
             <div className="space-y-6">
               {RESEARCH_PROJECTS.map((project) => (
                 <div key={project.title} className="space-y-1">
-                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-black underline">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
                     {project.title}
                   </a>
                   <div className="text-[0.9rem] leading-relaxed">
