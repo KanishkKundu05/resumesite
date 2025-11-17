@@ -92,7 +92,7 @@ export default function ResearchPage() {
                             href={project.collaborator.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="underline hover:text-black"
+                            className="hover:text-black"
                           >
                             {project.collaborator.label}
                           </a>
