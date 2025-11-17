@@ -25,7 +25,7 @@ export default function OlympiadsPage() {
   return (
     <main className="space-y-6">
       <div className="relative">
-        <Link href="/" className="absolute -top-8 left-0 text-blue-600 underline hover:text-black">
+        <Link href="/" className="absolute -top-8 left-0 hover:text-black">
           ←
         </Link>
         <header className="mb-6">
